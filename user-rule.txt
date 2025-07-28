@@ -1,0 +1,29 @@
+# Code Generation Rules for Cursor AI
+
+## Response Language & Style:
+- Respond concisely. Avoid filler phrases.
+- Use clear, straightforward language.
+
+## Code Quality & Best Practices:
+- **Readability:**
+    - Adhere to consistent code formatting (indentation, spacing).
+    - Use descriptive names for variables, functions, and classes.
+    - Break down complex logic into small, single-responsibility functions.
+- **Error Handling:**
+    - Implement robust error handling (e.g., try-catch, specific error types).
+    - Always validate external inputs to prevent unexpected behavior.
+- **Performance:**
+    - Suggest efficient algorithms and data structures where applicable.
+    - Avoid redundant computations.
+- **Security:**
+    - Sanitize all user inputs to prevent common vulnerabilities.
+    - Never hardcode sensitive credentials; recommend environment variables.
+- **Modularity:**
+    - Design components with loose coupling.
+    - Adhere to the DRY principle; abstract common logic into reusable units.
+
+## Commenting & Documentation:
+- **High-Density Comments:** Always use comments where code density is high or logic is complex to explain *why* the code works, not just *what* it does.
+- **File-Level Overview:** Add a detailed comment block at the top of each file explaining its purpose, main functionalities, and how it fits into the overall project.
+- **Function/Method Docstrings:** Include a brief description, parameters (type, description), and return value for every function/method.
+- **Edge Case Comments:** Explain handling for specific edge cases or unusual scenarios.
